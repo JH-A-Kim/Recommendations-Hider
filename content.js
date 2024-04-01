@@ -1,1 +1,3 @@
-const background = document.getElementById('secondary')
+const background = document.getElementById('secondary');
+
+background.style.display = 'none';
