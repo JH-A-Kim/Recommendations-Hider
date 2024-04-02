@@ -1,4 +1,24 @@
-const background = document.getElementById('secondary');
+//
+// function hideRecommendations() {
+//     const recommendations = document.getElementById('secondary');
+//
+//     if (recommendations) {
+//         recommendations.style.display = 'none';
+//     }
+// }
+//
+// document.addEventListener("DOMContentLoaded", function () {
+//     const hideButton = document.getElementById('hideButton');
+//
+//     if (hideButton) {
+//         hideButton.addEventListener('click', function (event) {
+//             hideRecommendations();
+//         });
+//     }
+// });
 
-background.style.display = 'none';
-//visibility = hidden will hide it and not change the amount of space the website takes
+const recommendations = document.getElementById('secondary');
+
+if (recommendations) {
+    recommendations.style.display = 'none';
+}
