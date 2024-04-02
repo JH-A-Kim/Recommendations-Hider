@@ -1,24 +1,16 @@
-//
-// function hideRecommendations() {
-//     const recommendations = document.getElementById('secondary');
-//
-//     if (recommendations) {
-//         recommendations.style.display = 'none';
-//     }
-// }
-//
-// document.addEventListener("DOMContentLoaded", function () {
-//     const hideButton = document.getElementById('hideButton');
-//
-//     if (hideButton) {
-//         hideButton.addEventListener('click', function (event) {
-//             hideRecommendations();
-//         });
-//     }
-// });
+console.log("Check");
+function toggleRecommendations() {
+    const recommendations = document.getElementById('secondary');
 
-const recommendations = document.getElementById('secondary');
-
-if (recommendations) {
-    recommendations.style.display = 'none';
+    if (recommendations.style.display === 'none') {
+        recommendations.style.display = '';
+    }
+    else {
+        recommendations.style.display = 'none';
+    }
 }
+const toggle = document.getElementById('toggle');
+
+toggle.addEventListener('change', function() {
+   toggleRecommendations()
+});
