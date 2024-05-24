@@ -42,24 +42,4 @@ This Chrome extension hides the recommended videos section on YouTube, allowing 
 - Built files are in the `dist` directory
 - Modify the code as needed and rebuild using `npm run build`
 
-### Including Styles
 
-Make sure your CSS file is correctly included in the popup HTML:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube Recommendations Hider</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <label>
-        Hide Recommendations:
-        <input type="checkbox" id="toggle">
-    </label>
-    <script src="popup.js"></script>
-</body>
-</html>
