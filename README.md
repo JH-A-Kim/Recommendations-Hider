@@ -43,3 +43,9 @@ This Chrome extension hides the recommended videos section on YouTube, allowing 
 - Modify the code as needed and rebuild using `npm run build`
 
 
+## Contributing
+
+- Contributions are welcome! If you have ideas for improving this tool or encounter any issues, please open an issue or submit a pull request.
+
+## License
+- This project is licensed under the MIT License.
